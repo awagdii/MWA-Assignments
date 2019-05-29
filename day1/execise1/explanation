@@ -1,0 +1,4 @@
+How Async functions affects the event loop ?
+
+when we call one of async functions like setTimeout that creates a push new thing in the event queue and
+when we finish the execution we go to check the event queue and process the events there.
