@@ -25,3 +25,5 @@ async function myAsync() {
 
 myAsync();
 console.log("Finish")
+
+console.log('hi')
