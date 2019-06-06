@@ -35,7 +35,6 @@ app.get('/users', async (req, res) => {
   res.end();
 });
 app.set('x-powered-by',false);
-
 app.listen(port, ()=> {
   console.log(`The server is running in port ${port}`)
 });
