@@ -1,0 +1,36 @@
+GET  http://localhost:3000/grades
+
+###
+POST  http://localhost:3000/grades
+Content-Type: application/json
+
+
+{ 
+    "id": 1, 
+    "name": "Ahmed", 
+    "course": "CS572", 
+    "grade": 95 
+}
+
+###
+PUT  http://localhost:3000/grades/1
+Content-Type: application/json
+
+
+{ 
+    "id": 1, 
+    "name": "Wagdi", 
+    "course": "CS572", 
+    "grade": 95 
+}
+###
+DELETE   http://localhost:3000/grades/1
+Content-Type: application/json
+
+
+{ 
+    "id": 1, 
+    "name": "Wagdi", 
+    "course": "CS572", 
+    "grade": 95 
+}
