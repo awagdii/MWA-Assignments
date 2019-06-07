@@ -1,0 +1,35 @@
+GET  http://localhost:3000/courses
+
+###
+POST  http://localhost:3000/courses
+Content-Type: application/json
+
+
+{ 
+    "id":"1",
+    "course": "EA", 
+    "lecture": "EA Lec"
+}
+
+###
+PUT  http://localhost:3000/courses/MWA
+Content-Type: application/json
+
+
+{ 
+    "id": 1, 
+    "name": "Wagdi", 
+    "course": "CS572", 
+    "grade": 95 
+}
+###
+DELETE   http://localhost:3000/grades/1
+Content-Type: application/json
+
+
+{ 
+    "id": 1, 
+    "name": "Wagdi", 
+    "course": "CS572", 
+    "grade": 95 
+}
