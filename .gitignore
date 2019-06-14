@@ -11,3 +11,16 @@ day3/exercise3/big.file
 /day5/node_modules
 /day8/exercise1/node_modules
 /node_modules
+/day12/counter-app/browserslist
+/day12/counter-app/karma.conf.js
+/day12/counter-app/package.json
+/day12/counter-app/package-lock.json
+/day12/counter-app/tsconfig.app.json
+/day12/counter-app/tsconfig.json
+/day12/counter-app/tsconfig.spec.json
+/day12/counter-app/tslint.json
+/day12/counter-app/e2e
+/day12/counter-app/node_modules
+/day12/counter-app/.editorconfig
+/day12/counter-app/.gitignore
+/day12/counter-app/angular.json
